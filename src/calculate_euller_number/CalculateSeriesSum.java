@@ -5,6 +5,10 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 public class CalculateSeriesSum {
+	/**
+	 * @param terms
+	 * @return
+	 */
 	public static double calculate(List<Future<Double>> terms) {
 		double serieSum = 0;
 		

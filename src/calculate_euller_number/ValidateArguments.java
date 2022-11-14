@@ -1,6 +1,11 @@
 package calculate_euller_number;
 
 public class ValidateArguments {
+	/**
+	 * @param args
+	 * @return
+	 * @throws Exception
+	 */
 	public static int getNumberOfTerms(String[] args) throws Exception {
 		int numberOfTerms = 0;
 		

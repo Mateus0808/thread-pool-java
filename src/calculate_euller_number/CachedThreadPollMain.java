@@ -7,8 +7,16 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * @author Mateus dos Santos
+ *
+ */
 public class CachedThreadPollMain {
-
+	
+	/**
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 		int numberOfTerms = ValidateArguments.getNumberOfTerms(args);
 		

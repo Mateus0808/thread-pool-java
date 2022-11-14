@@ -9,6 +9,10 @@ import java.util.concurrent.Future;
 
 public class WorkStealingThradPollMain {
 
+	/**
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 		int numberOfTerms = ValidateArguments.getNumberOfTerms(args);
 		
